@@ -37,8 +37,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.076 )
 stream = ExtResource( 1 )
 attenuation_model = 1
-unit_db = 40.0
-max_db = 6.0
 autoplay = true
 
 [node name="MeshInstance" type="MeshInstance" parent="Pivot/Spatial/AudioStreamPlayer3D"]

@@ -25,7 +25,7 @@ enable_resonance_audio=true
 
 [editor_plugins]
 
-enabled=PoolStringArray( "vrm" )
+enabled=PoolStringArray(  )
 
 [rendering]
 
