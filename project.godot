@@ -8,7 +8,7 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[]
 _global_script_class_icons={
 }
 
@@ -17,11 +17,11 @@ _global_script_class_icons={
 config/name="HRTF Project"
 run/main_scene="res://Spatial.tscn"
 config/icon="res://icon.png"
-enabled=PackedStringArray( "vrm" )
+enabled=PackedStringArray("vrm")
 
 [editor_plugins]
 
-enabled=PackedStringArray(  )
+enabled=PackedStringArray()
 
 [rendering]
 

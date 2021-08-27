@@ -2,12 +2,13 @@
 
 importer="wav"
 type="AudioStreamSample"
+uid="uid://cyqcsjou3toes"
 path="res://.godot/imported/Savfk_-_The_Goldbach_Conjecture.wav-41ceef960e6ddb7db488c2b988053cec.sample"
 
 [deps]
 
 source_file="res://Savfk_-_The_Goldbach_Conjecture.wav"
-dest_files=[ "res://.godot/imported/Savfk_-_The_Goldbach_Conjecture.wav-41ceef960e6ddb7db488c2b988053cec.sample" ]
+dest_files=["res://.godot/imported/Savfk_-_The_Goldbach_Conjecture.wav-41ceef960e6ddb7db488c2b988053cec.sample"]
 
 [params]
 
