@@ -15,18 +15,31 @@ autoplay = "New Anim"
 "anims/New Anim" = ExtResource( "1_iyp1u" )
 
 [node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(0.269498, 0, -0.963, 0, 1, 0, 0.963, 0, 0.269498, 0, 0, 0)
 
 [node name="Spatial" type="Node3D" parent="Pivot"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.411784)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Pivot/Spatial"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.345346, 0, -4.26619)
+transform = Transform3D(1, 0, 1.49012e-07, 0, 1, 0, -1.49012e-07, 0, 1, -0.595341, 0, -4.57645)
 stream = ExtResource( "1" )
 attenuation_model = 1
+unit_db = -10.0
 autoplay = true
+emission_angle_enabled = true
 attenuation_filter_cutoff_hz = 4000.0
 attenuation_filter_db = -13.9
 
 [node name="MeshInstance" type="MeshInstance3D" parent="Pivot/Spatial/AudioStreamPlayer3D"]
+visible = false
+mesh = SubResource( "2" )
+skeleton = NodePath("")
+
+[node name="AudioStreamPlayer3D2" type="AudioStreamPlayer" parent="Pivot/Spatial"]
+stream = ExtResource( "1" )
+volume_db = -10.0
+
+[node name="MeshInstance" type="MeshInstance3D" parent="Pivot/Spatial/AudioStreamPlayer3D2"]
+visible = false
 mesh = SubResource( "2" )
 skeleton = NodePath("")
